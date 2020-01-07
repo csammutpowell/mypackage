@@ -8,5 +8,5 @@
 #' @examples
 #' standard_error(rnorm(50))
 standard_error <- function(v){
-  sqrt(sum_squares(v)/(length(v)))
+  sd(v)/sqrt(length(v))
 }
