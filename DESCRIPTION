@@ -18,3 +18,5 @@ Imports:
   ggplot2,
   magrittr,
   stats
+Suggests: 
+    testthat (>= 2.1.0)
